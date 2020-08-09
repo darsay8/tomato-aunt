@@ -1,0 +1,15 @@
+.button__button-small {
+  @include button(12px 18px);
+}
+
+.button__button-medium {
+  @include button(16px 32px);
+}
+
+.button__button-large {
+  @include button(20px 46px);
+}
+
+.button__big-button {
+  @include button(30px 74px);
+}

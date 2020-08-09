@@ -1,0 +1,18 @@
+.title__section{
+  background-color: $jelly-bean;
+  color: $white;
+  padding: 70px 0;
+
+  .title{
+    font-size: $large;
+    font-weight: $bold;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 649px) {
+  .title__section{
+    padding: 30px 0;
+  }
+
+}

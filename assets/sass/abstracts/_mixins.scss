@@ -1,0 +1,21 @@
+@mixin button($padding){
+  padding: $padding;
+  border-radius: 50px;
+  border: 1px solid $taupe-gray;
+  color: $taupe-gray;
+  text-transform: uppercase;
+  font-size: $medium;
+  font-weight: $bold;
+  background-color: $snow;
+  transition: 0.5s;
+
+  &:hover{
+    color: $snow;
+    background-color: $taupe-gray;
+  }
+
+  &:active{
+    background-color: $gray;
+
+  }
+}

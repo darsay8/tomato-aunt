@@ -1,0 +1,23 @@
+.header {
+  background-color: $jelly-bean;
+  padding: 200px 0;
+  color: $white;
+  text-align: center;
+  font-size: $large;
+
+  .header__title{
+    font-weight: $extra-light;
+  }
+
+  .header__title span{
+    font-weight: $bold;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 649px) {
+  .header {
+    padding: 130px 0;
+    font-size: 30px;
+  }
+}
+
